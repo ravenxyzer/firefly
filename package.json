@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "@prisma/client": "^5.9.1",
+    "@sapphire/decorators": "^6.0.4",
+    "@sapphire/framework": "^5.0.7",
+    "@sapphire/plugin-subcommands": "^6.0.3",
+    "@sapphire/plugin-utilities-store": "^2.0.2",
+    "@sapphire/time-utilities": "^1.7.12",
+    "dayjs": "^1.11.10",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.1",
+    "git": "^0.1.5",
+    "mongodb": "^6.3.0"
+  },
+  "devDependencies": {
+    "prisma": "^5.9.1",
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  },
+  "name": "firefly",
+  "description": "Discord Bot from Honkai Star Rail Indonesia",
+  "version": "1.0.0",
+  "main": "dist/firefly.js",
+  "scripts": {
+    "start": "npm run build && node .",
+    "build": "tsup"
+  },
+  "author": "ravenxyzer",
+  "license": "ISC"
+}
