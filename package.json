@@ -23,7 +23,9 @@
   "main": "dist/firefly.js",
   "scripts": {
     "start": "npm run build && node .",
-    "build": "tsup"
+    "build": "tsup",
+    "generate": "prisma generate",
+    "compile": "prisma generate && tsup"
   },
   "author": "ravenxyzer",
   "license": "ISC"
